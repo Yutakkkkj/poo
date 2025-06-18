@@ -138,7 +138,7 @@ GameObject:
   - component: {fileID: 207735251}
   m_Layer: 0
   m_Name: Cube (1)
-  m_TagString: Untagged
+  m_TagString: "Ch\xE3o"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -285,7 +285,7 @@ MonoBehaviour:
   energia: 10
   forca_ataque: 10
   forca_do_pulo: 10
-  velocidade: 10
+  velocidade: 15
   numero_de_pes: 2
   numero_de_maos: 2
 --- !u!136 &330484596
@@ -405,7 +405,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!136 &330484601
 CapsuleCollider:
@@ -882,7 +882,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ataqueObject: {fileID: 2129118711}
-  raioDeVisao: 7
+  raioDeVisao: 5
   distanciaMinima: 1.5
 --- !u!135 &998691830
 SphereCollider:
@@ -1000,7 +1000,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!136 &998691835
 CapsuleCollider:
@@ -1051,7 +1051,7 @@ GameObject:
   - component: {fileID: 1016459140}
   m_Layer: 0
   m_Name: Cube (3)
-  m_TagString: Untagged
+  m_TagString: "Ch\xE3o"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1200,7 +1200,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6f80d1a4ffcc0634da626aabff9a0dec, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2141753199}
   m_SourcePrefab: {fileID: 100100000, guid: 6f80d1a4ffcc0634da626aabff9a0dec, type: 3}
 --- !u!1 &1565206329 stripped
 GameObject:
@@ -1248,7 +1251,7 @@ GameObject:
   - component: {fileID: 1615489317}
   m_Layer: 0
   m_Name: Cube (4)
-  m_TagString: Untagged
+  m_TagString: "Ch\xE3o"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1356,7 +1359,7 @@ GameObject:
   - component: {fileID: 1968123425}
   m_Layer: 0
   m_Name: Cube (2)
-  m_TagString: Untagged
+  m_TagString: "Ch\xE3o"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1680,6 +1683,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998691833}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2141753198 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6f80d1a4ffcc0634da626aabff9a0dec, type: 3}
+  m_PrefabInstance: {fileID: 1491125245}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2141753199
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2141753198}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
