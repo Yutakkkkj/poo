@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Inimigo
   - "Ch\xE3o"
+  - AtaqueHeroi
   layers:
   - Default
   - TransparentFX
